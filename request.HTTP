@@ -1,0 +1,16 @@
+GET http://localhost:3000/posts
+
+###
+
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+  {
+    "title": "Omnis ex accedo.",
+    "views": 1000
+  }
+
+###
+@prompt id
+DELETE http://localhost:3000/posts/{prompt.id}
+Content-Type: application/json
