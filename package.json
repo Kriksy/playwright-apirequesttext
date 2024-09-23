@@ -1,0 +1,21 @@
+{
+  "name": "playwright-apirequesttext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx json-server db.json",
+    "ui-mode": " npx playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.1",
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.5.5"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.2"
+  }
+}
